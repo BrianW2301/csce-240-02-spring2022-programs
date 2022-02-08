@@ -55,17 +55,19 @@ public class HTML_Parser {
                 Elements HomePhoneElement = doc
                                 .select("#contentsection > div:nth-child(3) > div:nth-child(4) > p:nth-child(3)");
                 String HomePhone = HomePhoneElement.first().text();
-
-                ArrayList<String> PersonalInformation = new ArrayList<String>();
-                Elements Element = doc.select(
-                                "#contentsection > div:nth-child(4) > div > table > tbody > tr > td:nth-child(1) > ul > li:nth-child(15)");
-                String test = Element.first().text();
-                System.out.println(test);
-                for (int i=1; doc.selectXpath(
-                        "//*[@id="contentsection"]/div[2]/div/table/tbody/tr/td[1]/ul/li[7]" != nul; i++){
-
-                        }
-
+                /*
+                 * ArrayList<String> PersonalInformation = new ArrayList<String>();
+                 * Elements Element = doc.select(
+                 * "#contentsection > div:nth-child(4) > div > table > tbody > tr > td:nth-child(1) > ul > li:nth-child(15)"
+                 * );
+                 * String test = Element.first().text();
+                 * System.out.println(test);
+                 * for (int i=1; doc.selectXpath(
+                 * "//*[@id="contentsection"]/div[2]/div/table/tbody/tr/td[1]/ul/li[7]" != nul;
+                 * i++){
+                 * 
+                 * }
+                 */
                 System.out.println("Name: " + name);
                 System.out.println("Party: " + party);
                 System.out.println("County: " + county);
@@ -77,7 +79,7 @@ public class HTML_Parser {
                 System.out.println("Columbia Business Phone Number: " + ColumbiaBusinessPhone);
 
                 /*
-                 * for (String line : readFileLines("Portrait.txt")) {
+                 * for (String line : readFileLines("project\data\Portrait.txt")) {
                  * System.out.println(line);
                  * }
                  */
