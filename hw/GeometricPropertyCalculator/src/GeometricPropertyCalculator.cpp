@@ -10,8 +10,8 @@ using namespace std;
 int main()
 {
 
-    string file_name = "C:\\Users\\Brian\\Documents\\C++\\csce-240-02-spring2022-programs\\hw\\GeometricPropertyCalculator\\data\\input.txt";
-    string out_file_name = "C:\\Users\\Brian\\Documents\\C++\\csce-240-02-spring2022-programs\\hw\\GeometricPropertyCalculator\\data\\output.txt";
+    string file_name = "..\\data\\input.txt";
+    string out_file_name = "..\\data\\output.txt";
     string line;
     string shape = "NULL";
     string answer;
