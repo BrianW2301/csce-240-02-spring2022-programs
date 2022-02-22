@@ -1,4 +1,4 @@
-package src;
+//package src;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -10,7 +10,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
-public class HTML_Parser {
+public class prog1 {
 
         public static void main(String[] args) throws IOException {
 
