@@ -1,7 +1,0 @@
-TESTER REVIEW
-
-Recommendations:
-Try to organize code in additional methods
-
-Comments:
-Good effort
