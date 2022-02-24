@@ -1,0 +1,10 @@
+This project relies on using the jsoup library in the lib folder as a reference library
+
+First, the program checks if the input argument matches a valid district. (Only 46 is valid).
+Then the program uses methods from the jsoup library to load an HTML file as a document and search for specific elements using their JS Path as a key.
+The program then retrieves the text from each element and prints it to an output file
+
+Compile program with CSCE-240-02-SPRING2022-PROGRAMS as working directory:
+javac -cp prog1-extractor\lib\jsoup-1.14.3.jar prog1-extractor\src\prog1.java
+Run program with CSCE-240-02-SPRING2022-PROGRAMS as working directory:
+java -cp "prog1-extractor\src;prog1-extractor\lib\jsoup-1.14.3.jar" prog1

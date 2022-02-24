@@ -1,0 +1,15 @@
+Supported command line options:
+Contact Information //returns all contact formation 
+Contact Information:name //returns name
+Contact Information:region //returns district number and county
+Contact Information:Business Phone //returns business phone number
+Contact Information:Home Phone //returns home phone number
+Personal Information //returns all personal information
+Personal Information:random //returns a random fact from the personal information list
+Committee Assignments //returns committee assignments
+
+Example commands:
+java -cp "prog2-processor\src;" prog2 Contact Information
+java -cp "prog2-processor\src;" prog2 Contact Information:name
+java -cp "prog2-processor\src;" prog2 Contact Information:Home Phone
+java -cp "prog2-processor\src;" prog2 Personal Information:random

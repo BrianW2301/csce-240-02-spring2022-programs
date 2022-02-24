@@ -1,0 +1,4 @@
+Compile program with CSCE-240-02-SPRING2022-PROGRAMS as working directory:
+javac prog2-processor\src\prog2.java
+Run program with CSCE-240-02-SPRING2022-PROGRAMS as working directory:
+java -cp "prog2-processor\src;" prog2 input
