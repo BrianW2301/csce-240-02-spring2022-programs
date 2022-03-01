@@ -75,6 +75,10 @@ int main(int argc, char *argv[])
             {
                 output = emailHeader.getDeliveredTo();
             }
+            else
+            {
+                cout << "Could not find \"" << argv[1] << "\"" << endl;
+            }
         }
         else
         {
