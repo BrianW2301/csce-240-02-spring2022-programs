@@ -9,7 +9,7 @@ public class prog3 {
         String answer = " ";
         Representative rep = new Representative();
         ArrayList<String> personalInformation = rep.getFacts();
-        while (answer.charAt(0) != 'q') {
+        while (!answer.equals("q") && !answer.equals("quit")) {
 
             answer = keyboard.nextLine().toLowerCase();
             if (answer.charAt(answer.length() - 1) == '?') {
@@ -51,7 +51,7 @@ public class prog3 {
                     break;
                 case "what is my reps politcal affiliation":
                     System.out.println("Your representative is a " + rep.getParty());
-                case "Where does my rep live":
+                case "where does my rep live":
                     System.out.println("Your representative lives at " + rep.getHomeAddress());
                     break;
                 case "what is my reps business phone number":
