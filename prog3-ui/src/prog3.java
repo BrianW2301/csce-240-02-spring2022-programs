@@ -9,6 +9,7 @@ public class prog3 {
         String answer = " ";
         Representative rep = new Representative();
         ArrayList<String> personalInformation = rep.getFacts();
+        System.out.println("Hello! How can I help you?");
         while (!answer.equals("q") && !answer.equals("quit")) {
 
             answer = keyboard.nextLine().toLowerCase();
@@ -32,7 +33,7 @@ public class prog3 {
                                     + " county, " + rep.getDistrict());
                     System.out
                             .println("You can reach your representative during business hours with these two numbers: "
-                                    + rep.gethomeWorkPhone() + " & " + rep.getColumbiaWorkPhone());
+                                    + rep.getHomeWorkPhone() + " & " + rep.getColumbiaWorkPhone());
                     System.out.println("Your representative's home phone number is " + rep.gethomePhone());
                     System.out.println("Your representative lives at " + rep.getHomeAddress() + " and works at "
                             + rep.getWorkAddress());
@@ -58,7 +59,7 @@ public class prog3 {
                 case "what is my reps work phone number":
                     System.out.println(
                             "Your representative has two business phone numbers. When they are at their home office, you can reach them at "
-                                    + rep.gethomeWorkPhone()
+                                    + rep.getHomeWorkPhone()
                                     + " and when they are in their Columbia office you can reach them at "
                                     + rep.getColumbiaWorkPhone());
                     break;
@@ -81,6 +82,7 @@ public class prog3 {
                     break;
                 case "quit":
                 case "q":
+                    System.out.println("Goodbye!");
                     break;
                 default:
                     System.out.println("I do not know this information");

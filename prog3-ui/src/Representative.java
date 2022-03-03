@@ -50,7 +50,7 @@ public class Representative {
         return homePhone;
     }
 
-    public String gethomeWorkPhone() {
+    public String getHomeWorkPhone() {
         return homeWorkPhone;
     }
 

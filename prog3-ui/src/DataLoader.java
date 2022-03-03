@@ -69,7 +69,7 @@ public class DataLoader {
                 facts.add(string.split("- ")[1]);
             }
         }
-        personalInformation.put("personalInfo", facts);
+        personalInformation.put("facts", facts);
         return personalInformation;
     }
 
