@@ -6,7 +6,7 @@ All other inputs are met with a message saying "I do not know this information".
 The input is not case sensitive and if the user adds a '?' to the end of their question, it is handled.
 The program stops when the user enters "quit" or 'q'
 
-Acceptable Input:
+Acceptable Inputs:
 hi
 hello
 who is my rep
