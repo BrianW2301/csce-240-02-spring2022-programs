@@ -4,7 +4,11 @@
     "prog1/lib/jsoup-1.14.3.jar",
     "prog1-extractor/lib/jsoup-1.14.3.jar"
   ],
-  "java.project.sourcePaths": ["prog2-processor/src", "prog1-extractor/src"],
+  "java.project.sourcePaths": [
+    "prog2-processor/src",
+    "prog1-extractor/src",
+    "prog3-ui/src"
+  ],
   "files.associations": {
     "atomic": "cpp",
     "bit": "cpp",

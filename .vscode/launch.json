@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch prog3",
+            "request": "launch",
+            "mainClass": "prog3",
+            "projectName": "csce-240-02-spring2022-programs_f664e141"
+        },
+        {
             "name": "g++.exe - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
