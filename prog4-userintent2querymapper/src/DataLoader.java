@@ -6,11 +6,12 @@ import java.util.HashMap;
 import java.util.List;
 
 public class DataLoader {
+    public final static String inputFile = "prog4-userintent2querymapper\\data\\Prog1Output.txt";
 
     public static HashMap<String, String> loadContactInformation() throws IOException {
         HashMap<String, String> contactInformation = new HashMap<String, String>();
 
-        FileReader fileReader = new FileReader("prog3-ui\\data\\Prog1Output.txt");
+        FileReader fileReader = new FileReader(inputFile);
         BufferedReader bufferedReader = new BufferedReader(fileReader);
         List<String> lines = new ArrayList<String>();
         String line = null;
@@ -42,7 +43,7 @@ public class DataLoader {
     public static HashMap<String, Object> loadPersonalInformtion() throws IOException {
         HashMap<String, Object> personalInformation = new HashMap<String, Object>();
 
-        FileReader fileReader = new FileReader("prog3-ui\\data\\Prog1Output.txt");
+        FileReader fileReader = new FileReader(inputFile);
         BufferedReader bufferedReader = new BufferedReader(fileReader);
         List<String> lines = new ArrayList<String>();
         String line = null;
@@ -76,7 +77,7 @@ public class DataLoader {
     public static HashMap<String, String> loadCommitteeAssignments() throws IOException {
         HashMap<String, String> committeeAssignments = new HashMap<String, String>();
 
-        FileReader fileReader = new FileReader("prog3-ui\\data\\Prog1Output.txt");
+        FileReader fileReader = new FileReader(inputFile);
         BufferedReader bufferedReader = new BufferedReader(fileReader);
         List<String> lines = new ArrayList<String>();
         String line = null;
