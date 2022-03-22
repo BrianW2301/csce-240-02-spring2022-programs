@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch prog4",
+            "request": "launch",
+            "mainClass": "prog4",
+            "projectName": "csce-240-02-spring2022-programs_f664e141"
+        },
+        {
+            "type": "java",
             "name": "Launch prog3",
             "request": "launch",
             "mainClass": "prog3",

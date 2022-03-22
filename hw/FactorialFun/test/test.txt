@@ -1,0 +1,17 @@
+Input:      Output:
+4           24
+12          479001600
+13          1932053504  //The factorial fuction runs over the normal integer bit limit after 12!. The same problem would occur if any input over 12 is given to the choose function.
+0           1
+string      "Input must be a positive integer"
+1.5         "Input must be a positive integer"
+-1          "Input must be a positive integer"
+
+6 2         15
+0 0         1
+0 -1        "Input must be a positive integer"
+string 0    "Input must be a positive integer"
+string 1.5  "Input must be a positive integer"
+
+1 2 3       "Too many arguments"
+1 2 string  "Too many arguments"
