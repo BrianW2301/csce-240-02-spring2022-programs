@@ -30,9 +30,16 @@ tell me everything
 -------------------------------------------------------------------------------------------------------------------
 
 Session Logger:
+If the program is run with no arguments, it runs the chatbot loop.
+When the chatbot loop is started, a text file is created which logs the questions from the user and the response from the system.
+Every time a question is asked, the number of user utterance is increased by one,
+and every time the system can confidently respond to a question, the number of system utterance is increased by one.
 
+If the program is run with the argument "-summary", the program calculates statistics based on all logged chat sessions.
 
+If the program is run with the argument "-showchat-summary <num>", the program calculates statistics based on a given chat session.
 
+If the program is run with the argument "-showchat <num>", the program prints the chat log for that session.
 
 Compile: javac -cp prog5-sessionlogger\src prog5-sessionlogger\src\prog5.java
 Run: java -cp "prog5-sessionlogger\src" prog5
