@@ -1,0 +1,12 @@
+hi
+I believe you mean: hi with 100.0 % confidence
+Hello!
+
+who is my representative
+I believe you mean: what is my reps name with 62.5 % confidence
+Your representative's name is Representative J. Gary Simrill
+
+q
+I believe you mean: q with 100.0 % confidence
+Goodbye!
+

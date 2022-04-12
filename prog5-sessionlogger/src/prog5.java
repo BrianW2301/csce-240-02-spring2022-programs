@@ -210,6 +210,8 @@ public class prog5 {
             case "quit":
             case "q":
                 return "Goodbye!";
+            case "tell me everything":
+                return "";
             default:
                 return "I do not know this information";
         }

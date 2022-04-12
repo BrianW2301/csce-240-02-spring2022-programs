@@ -2,15 +2,11 @@
   "java.project.referencedLibraries": [
     "lib/**/*.jar",
     "prog1/lib/jsoup-1.14.3.jar",
-    "prog1-extractor/lib/jsoup-1.14.3.jar",
-    "prog5-sessionlogger/lib/opencsv-4.1.jar"
+    "prog5-sessionlogger/lib/opencsv-4.1.jar",
+    "myrep-chatbot/lib/jsoup-1.14.3.jar"
   ],
   "java.project.sourcePaths": [
-    "prog1-extractor\\src",
-    "prog2-processor\\src",
-    "prog3-ui\\src",
-    "prog4-userintent2querymapper\\src",
-    "prog5-sessionlogger\\src"
+    "myrep-chatbot\\src"
   ],
   "files.associations": {
     "atomic": "cpp",

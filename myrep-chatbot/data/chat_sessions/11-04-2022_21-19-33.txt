@@ -1,0 +1,27 @@
+hello
+Hello!
+
+who is my rep
+Your representative is Representative J. Gary Simrill, a Republican from York county
+
+who is my rep
+Your representative is Representative J. Gary Simrill, a Republican from York county
+
+where is my rep from
+Your representative is from district District 46, York county
+
+what are my reps committee assignments
+Your representative's committee assignments are: Ways and Means, 2nd V.C.
+
+ilnwaf
+I do not know this information. Can you rephrase your question?
+
+whi if ny rep
+Your representative is Representative J. Gary Simrill, a Republican from York county
+
+who is my rep
+Your representative is Representative J. Gary Simrill, a Republican from York county
+
+quit
+Goodbye!
+

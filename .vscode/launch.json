@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Extractor",
+      "request": "launch",
+      "mainClass": "Extractor",
+      "projectName": "csce-240-02-spring2022-programs_f664e141"
+    },
+    {
+      "type": "java",
+      "name": "Launch extractor",
+      "request": "launch",
+      "mainClass": "extractor",
+      "projectName": "csce-240-02-spring2022-programs_f664e141"
+    },
+    {
+      "type": "java",
+      "name": "Launch chatbot",
+      "request": "launch",
+      "mainClass": "chatbot",
+      "projectName": "csce-240-02-spring2022-programs_f664e141"
+    },
+    {
+      "type": "java",
+      "name": "Launch Temp",
+      "request": "launch",
+      "mainClass": "Temp",
+      "projectName": "csce-240-02-spring2022-programs_f664e141"
+    },
+    {
+      "type": "java",
       "name": "Launch prog5",
       "request": "launch",
       "mainClass": "prog5",

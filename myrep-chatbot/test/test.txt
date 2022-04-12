@@ -1,0 +1,24 @@
+Valid Arguments:
+-summary
+-showchat-summary <#>
+-showchat <#>
+
+ - java -cp "prog5-sessionlogger\src" prog5 -summary
+There are 4 chats to date with the user asking 8 times and the system responding 8 times. Total duration is 41031 miliseconds.
+
+ - java -cp "prog5-sessionlogger\src" prog5 -showchat-summary 2
+Chat 2 has user asking 1 times and system responding 1 times. Total duration is 2237 miliseconds.
+
+ - java -cp "prog5-sessionlogger\src" prog5 -showchat 2
+Chat 1 chat is:
+hi
+I believe you mean: hi with 100.0 % confidence
+Hello!
+
+who is my rep
+I believe you mean: who is my rep with 100.0 % confidence
+Your representative is Representative J. Gary Simrill, a Republican from York county
+
+q
+I believe you mean: q with 100.0 % confidence
+Goodbye!
